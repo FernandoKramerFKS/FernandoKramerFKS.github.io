@@ -5,16 +5,35 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="bootstrap-4.6.0/css/bootstrap.min.css" rel="stylesheet">
-        <link href="#" rel="stylesheet">
+        <link href="arquivoCss.css" rel="stylesheet">
         <title>Document</title>
     </head>
     <body>
-        <header>
-        </header>
-        <img src="img/image.jpg">
+        <div class="container">
+            <h2>Níveis de Testes.</h2>
+            <p>qui vai uma descrição básica sobre os fundamentos dos níveis de testes, será editádo futuramente.</p>
+            <h3>Testes de Unidade</h3>
+            <p>O objetivos dos testes de unidade são, encontrar falhas de funcionamento dentro de uma pequena parte do sistema independentemente do todo.
+                Este teste é realizado pelo programador durante e após a codificação e o alvo dos testes são as sub-rotinas, métodos ou seja as menores unidades
+                do sistema. Geralmente é automatizado, através de ferramentas como Junit, PHPUnit entre outros, precisa sempre estar atualizado e coerente 
+                com as regras atuais do sistema.
+            </p>
+            <h3>Teste de Integração</h3>
+            <p>
+                O teste de integração tem a função de validar á comunicação entre componentes do sistema, também é realizado pelo programador, o alvo são as 
+                funcionalidades que envolvem a integração de componentes, geralmente os tipos de falhas encontradas são de transmissão de dados,exemplo mais 
+                comum é <i>um componente <b>A</b> invoca um método de um componente <b>B</b>, e espera um valor inteiro, porém, vem um valor decimal, causando falha no componente
+                <b>A</b>.</i>
+            </p>
+            <p>
+                Geralmente é automatizado, através de ferramentas e podem ser realizados antes do sistema estar concluído, á medida em que os componentes
+                vão ficando prontos.
+            </p>
+        </div>
         <footer>
             <script src="bootstrap-4.6.0/js/jquery-3.6.0.js"></script>
             <script src="bootstrap-4.6.0/js/bootstrap.bundle.min.js"></script>
         </footer>
     </body>
 </html>
+
