@@ -1,3 +1,15 @@
 header{
-    background-image: radial-gradient(circle at 9.71% 50%, #a1dbd8 0, #9fdbdd 4.17%, #9fdae2 8.33%, #a0d9e6 12.5%, #a2d9ea 16.67%, #a5d8ed 20.83%, #a9d6f0 25%, #aed5f2 29.17%, #b3d4f4 33.33%, #b9d2f4 37.5%, #c0d0f4 41.67%, #c6cff4 45.83%, #cdcdf2 50%, #d3cbf0 54.17%, #dacaed 58.33%, #e0c8ea 62.5%, #e5c7e6 66.67%, #eac6e1 70.83%, #eec5dd 75%, #f1c4d8 79.17%, #f4c3d2 83.33%, #f6c3cd 87.5%, #f7c3c8 91.67%, #f7c4c3 95.83%, #f6c4bf 100%);;
+    background-image: linear-gradient(125deg, #ff92e7 0, #ff93cf 4.17%, #ff97b7 8.33%, #ff9ea0 12.5%, #ffa68a 16.67%, #ffb075 20.83%, #ffba60 25%, #ffc54c 29.17%, #ffcf39 33.33%, #ffd925 37.5%, #ffe20f 41.67%, #ffea00 45.83%, #fff200 50%, #e7f919 54.17%, #ceff2f 58.33%, #b3ff44 62.5%, #94ff5a 66.67%, #6eff70 70.83%, #2dff87 75%, #00ff9e 79.17%, #00ffb7 83.33%, #00ffd0 87.5%, #00ffe9 91.67%, #00ffff 95.83%, #00ffff 100%);
+}
+
+#menu{
+    float: right;
+    margin-top: 40px;
+}
+
+.icone-menu{
+    margin-left: 15px;
+    font-family: cursive;
+    font-size: 1.3rem;
+    
 }
