@@ -1,15 +1,43 @@
+body{
+    background-color: #fdfd053f;
+}
 header{
     background-image: linear-gradient(125deg, #ff92e7 0, #ff93cf 4.17%, #ff97b7 8.33%, #ff9ea0 12.5%, #ffa68a 16.67%, #ffb075 20.83%, #ffba60 25%, #ffc54c 29.17%, #ffcf39 33.33%, #ffd925 37.5%, #ffe20f 41.67%, #ffea00 45.83%, #fff200 50%, #e7f919 54.17%, #ceff2f 58.33%, #b3ff44 62.5%, #94ff5a 66.67%, #6eff70 70.83%, #2dff87 75%, #00ff9e 79.17%, #00ffb7 83.33%, #00ffd0 87.5%, #00ffe9 91.67%, #00ffff 95.83%, #00ffff 100%);
 }
 
-#menu{
-    float: right;
-    margin-top: 40px;
+.titulo{
+    font-family: cursive;
+    font-size: 1.5rem;
 }
 
-.icone-menu{
-    margin-left: 15px;
-    font-family: cursive;
-    font-size: 1.3rem;
+.teste{
+    padding: 15px;
     
+}
+
+.produto{
+    border: solid 2px;
+    border-radius: 20px;
+    height: 450px;
+    border-color: rgba(18, 20, 24, 0.5);
+    text-align: center;
+    font-family: cursive;
+}
+
+.produto:hover{
+    background-color: rgba(93, 94, 95, 0.164);
+}
+
+.ii{
+    margin-bottom: 2rem;
+}
+
+.mer{
+    border: solid 1rem;
+    border-color: rgba(248, 4, 187, 0.26);
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
 }
